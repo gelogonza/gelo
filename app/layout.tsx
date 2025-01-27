@@ -1,8 +1,7 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import CustomCursor from "./components/CustomCursor"
-import { Cursor } from "react-simple-typewriter";
+import CustomCursor from "./components/CustomCursor";
 
 export const metadata = {
   title: "Angelo Gonzalez",

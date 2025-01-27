@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 const CustomCursor: React.FC = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [cursorVariant, setCursorVariant] = useState("default");
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -35,19 +36,28 @@ const CustomCursor: React.FC = () => {
     },
   };
 
-  useEffect(() => {
-    const addHoverEffect = (e: MouseEvent) => setCursorVariant("hover");
-    const removeHoverEffect = (e: MouseEvent) => setCursorVariant("default");
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+    setCursorVariant("hover");
+  };
 
-    document.querySelectorAll("a, button").forEach((el) => {
-      el.addEventListener("mouseenter", addHoverEffect);
-      el.addEventListener("mouseleave", removeHoverEffect);
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+    setCursorVariant("default");
+  };
+
+  useEffect(() => {
+    const links = document.querySelectorAll("a, button");
+
+    links.forEach((link) => {
+      link.addEventListener("mouseover", handleMouseEnter);
+      link.addEventListener("mouseout", handleMouseLeave);
     });
 
     return () => {
-      document.querySelectorAll("a, button").forEach((el) => {
-        el.removeEventListener("mouseenter", addHoverEffect);
-        el.removeEventListener("mouseleave", removeHoverEffect);
+      links.forEach((link) => {
+        link.removeEventListener("mouseover", handleMouseEnter);
+        link.removeEventListener("mouseout", handleMouseLeave);
       });
     };
   }, []);
@@ -60,7 +70,9 @@ const CustomCursor: React.FC = () => {
         position: "fixed",
         transition: "all 0.2s ease-out",
       }}
-    />
+    >
+      {isHovered && <div>Hovered!</div>}
+    </div>
   );
 };
 
