@@ -11,7 +11,7 @@ const projects = [
     title: "PowerTrack Fitness Tracker",
     description:
       "The Workout Tracker Web App is a web application designed to help users track their workouts and nutrition. It provides a user-friendly interface for logging exercises, monitoring progress, and managing dietary intake.",
-    tags: ["React", "Firebase", "AWS", "AWS"],
+    tags: ["React", "Firebase", "AWS", "AWS Lambda", "DynamoDB"],
     demoLink: "https://discord-bot-demo-link.com",
     codeLink: "https://github.com/gelogonza/PowerTrak",
   },
