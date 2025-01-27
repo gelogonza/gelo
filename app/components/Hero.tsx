@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       {/* Profile Picture */}
       <div className="rounded-full overflow-hidden w-52 h-52 border-4 border-green mb-6">
         <Image
-          src="/Angeloimg.jpg" // Replace with your profile image path
+          src="/AngeloImg.jpg" // Replace with your profile image path
           alt="Angelo Gonzalez"
           width={208}
           height={208}

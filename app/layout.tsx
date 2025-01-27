@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import CustomCursor from "./components/CustomCursor";
 
 export const metadata = {
   title: "Angelo Gonzalez",
@@ -28,7 +27,6 @@ export default function RootLayout({
       <body className="bg-navy text-white">
         {/* Navbar at the top obviously */}
         <Navbar />
-        <CustomCursor />
         {/* Page stuff */}
         <main>{children}</main>
 
