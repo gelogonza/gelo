@@ -19,7 +19,7 @@ const About: React.FC = () => {
       },
       {
         title: "Backend Engineer",
-        description: "Building robust and scalable server-side applications.",
+        description: "Developing secure, scalable, and efficient server-side architectures.",
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const About: React.FC = () => {
       },
       {
         title: "Full Stack Developer",
-        description: "Bridging the gap between frontend and backend technologies.",
+        description: "Seamlessly integrating frontend and backend technologies to build complete and impactful applications.",
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ const About: React.FC = () => {
       },
       {
         title: "Problem Solver",
-        description: "Tackling complex challenges with innovative solutions.",
+        description: "Transforming complex challenges into innovative and efficient solutions through analytical thinking.",
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
