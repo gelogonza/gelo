@@ -4,25 +4,54 @@ const projects = [
     description:
       "A responsive personal portfolio website showcasing my skills and projects.",
     tags: ["React", "Next.js", "Tailwind CSS"],
-    demoLink: "https://your-portfolio-demo-link.com",
-    codeLink: "https://github.com/your-profile/portfolio",
+    demoLink: "https://gelo-two.vercel.app/",
+    codeLink: "https://github.com/gelogonza/gelo",
   },
   {
-    title: "Multi-function Discord Bot",
+    title: "PowerTrack Fitness Tracker",
     description:
-      "A full-featured Discord bot with music streaming and server management capabilities.",
-    tags: ["Node.js", "Discord.js", "Play-dl"],
+      "The Workout Tracker Web App is a web application designed to help users track their workouts and nutrition. It provides a user-friendly interface for logging exercises, monitoring progress, and managing dietary intake.",
+    tags: ["React", "Firebase", "AWS", "AWS"],
     demoLink: "https://discord-bot-demo-link.com",
-    codeLink: "https://github.com/your-profile/discord-bot",
+    codeLink: "https://github.com/gelogonza/PowerTrak",
   },
   {
-    title: "Password Manager",
+    title: "Simple Link Website",
     description:
       "A secure password manager with encryption and two-factor authentication.",
-    tags: ["Python", "Django", "SQLite"],
-    demoLink: "https://password-manager-demo-link.com",
-    codeLink: "https://github.com/your-profile/password-manager",
+    tags: ["HTML", "CSS"],
+    demoLink: "https://gelo-link.netlify.app/",
+    codeLink: "https://github.com/gelogonza/AngeloLink",
+
   },
+  {
+    title: "Syro",
+    description: `Designed and developed a Music app using Spotify API that allows users to make playlists,
+      view data, control playback on their devices, download music, play music that is downloaded locally,
+      and view other peoples pages with more details and insights`,
+    tags: ["Python", "Django","Spotify API"],
+    demoLink: "https://gelo-link.netlify.app/",
+    codeLink: "https://github.com/gelogonza/Syro",
+    
+  },
+  {
+    title: "Simple Reservation System",
+    description:
+      `console-based application designed to streamline the operations of a restaurant. The program allows users to manage reservations, 
+      food orders, table assignments, bill payments, and closing operations in an efficient and user-friendly manner.`,
+    tags: ["C++"],
+    demoLink: "https://github.com/gelogonza/simplersvp",
+    codeLink: "https://github.com/gelogonza/simplersvp"
+    },
+    {
+      title: "Simple Fitness Tracker",
+      description:
+        `console-based application designed to help users log physical activities, set fitness goals, 
+        and track their progress. It provides a simple interface to input data, monitor goals, and generate progress reports.`,
+      tags: ["C++"],
+      demoLink: "https://github.com/gelogonza/FitnessTracker",
+      codeLink: "https://github.com/gelogonza/FitnessTracker"
+      },
 ];
 
 const Projects: React.FC = () => {
