@@ -21,6 +21,3 @@ body {
 html {
   scroll-behavior: smooth;
 }
-body {
-  cursor: none; /* Hides the regular shmegular cursor */
-}
