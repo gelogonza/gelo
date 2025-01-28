@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
         {/* Right: Social Icons */}
         <div className="flex space-x-4">
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/gelogonza"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green transition"
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/angelo-gonza/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-green transition"
