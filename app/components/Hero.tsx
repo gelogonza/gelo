@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
           className="flex items-center gap-2 px-4 py-2 bg-green text-navy rounded shadow hover:bg-light-slate transition text-sm"
         >
           <Linkedin className="w-4 h-4" />
-          LinkedIn
+          linkedin
         </a>
 
         {/* GitHub */}
@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
           className="flex items-center gap-2 px-4 py-2 bg-green text-navy rounded shadow hover:bg-light-slate transition text-sm"
         >
           <Github className="w-4 h-4" />
-          GitHub
+          github
         </a>
 
         {/* Resume */}
@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
           className="flex items-center gap-2 px-4 py-2 bg-green text-navy rounded shadow hover:bg-light-slate transition text-sm"
         >
           <FileText className="w-4 h-4" />
-          Resume
+          resume
         </a>
       </div>
     </section>
