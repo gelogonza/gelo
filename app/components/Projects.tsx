@@ -1,3 +1,5 @@
+import { FaGithub } from 'react-icons/fa';
+
 const projects = [
   {
     title: "personal portfolio",
@@ -12,7 +14,7 @@ const projects = [
     description:
       `The Workout Tracker Web App is a web application designed to help users track their workouts 
       and nutrition. It provides a user-friendly interface for logging exercises, monitoring progress, and managing dietary intake.`,
-    tags: ["React", "Firebase", "AWS", "AWS Lambda", "DynamoDB"],
+    tags: ["react", "firebase", "aws", "aws Lambda", "dynamodb"],
     demoLink: "https://discord-bot-demo-link.com",
     codeLink: "https://github.com/gelogonza/PowerTrak",
   },
@@ -20,7 +22,7 @@ const projects = [
     title: " link website",
     description:
       "a website that leads to my other projects and social media accounts.",
-    tags: ["HTML", "CSS"],
+    tags: ["html", "css"],
     demoLink: "https://gelo-link.netlify.app/",
     codeLink: "https://github.com/gelogonza/AngeloLink",
 
@@ -30,7 +32,7 @@ const projects = [
     description: `designed and developed a Music app using Spotify API that allows users to make playlists,
       view data, control playback on their devices, download music, play music that is downloaded locally,
       and view other peoples pages with more details and insights`,
-    tags: ["Python", "Django","Spotify API"],
+    tags: ["python", "django","spotify spi"],
     demoLink: "https://gelo-link.netlify.app/",
     codeLink: "https://github.com/gelogonza/Syro",
     
@@ -40,7 +42,7 @@ const projects = [
     description:
       `console-based application designed to streamline the operations of a restaurant. The program allows users to manage reservations, 
       food orders, table assignments, bill payments, and closing operations in an efficient and user-friendly manner.`,
-    tags: ["C++"],
+    tags: ["c++"],
     demoLink: "https://github.com/gelogonza/simplersvp",
     codeLink: "https://github.com/gelogonza/simplersvp"
     },
@@ -49,7 +51,7 @@ const projects = [
       description:
         `console-based application designed to help users log physical activities, set fitness goals, 
         and track their progress. It provides a simple interface to input data, monitor goals, and generate progress reports.`,
-      tags: ["C++"],
+      tags: ["c++"],
       demoLink: "https://github.com/gelogonza/FitnessTracker",
       codeLink: "https://github.com/gelogonza/FitnessTracker"
       },
@@ -92,7 +94,7 @@ const Projects: React.FC = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 bg-green text-navy rounded shadow hover:bg-light-slate transition"
               >
-                Code
+                <FaGithub size={20} />
               </a>
             </div>
           </div>
