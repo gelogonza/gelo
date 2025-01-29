@@ -14,7 +14,7 @@ const projects = [
     description:
       `The Workout Tracker Web App is a web application designed to help users track their workouts 
       and nutrition. It provides a user-friendly interface for logging exercises, monitoring progress, and managing dietary intake.`,
-    tags: ["react", "firebase", "aws", "aws Lambda", "dynamodb"],
+    tags: ["react", "firebase", "aws", "aws lambda", "dynamodb"],
     demoLink: "https://discord-bot-demo-link.com",
     codeLink: "https://github.com/gelogonza/PowerTrak",
   },
@@ -32,7 +32,7 @@ const projects = [
     description: `designed and developed a Music app using Spotify API that allows users to make playlists,
       view data, control playback on their devices, download music, play music that is downloaded locally,
       and view other peoples pages with more details and insights`,
-    tags: ["python", "django","spotify spi"],
+    tags: ["python", "django","spotify api"],
     demoLink: "https://gelo-link.netlify.app/",
     codeLink: "https://github.com/gelogonza/Syro",
     
