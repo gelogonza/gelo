@@ -26,7 +26,7 @@ const skills = [
 const Skills: React.FC = () => {
     return (
       <section id="skills" className="py-16 bg-navy text-lightest-slate">
-        <h2 className="text-3xl font-bold text-center mb-8 text-white">Skills</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 text-white">skills</h2>
         <motion.div
           className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 max-w-7xl mx-auto px-6"
           initial="hidden"

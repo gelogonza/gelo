@@ -58,7 +58,7 @@ const projects = [
 const Projects: React.FC = () => {
   return (
     <section id="projects" className="py-16 bg-navy text-lightest-slate">
-      <h2 className="text-3xl font-bold text-center mb-8 text-white">Projects</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 text-white">projects</h2>
       <div className="grid gap-8 md:grid-cols-3 max-w-7xl mx-auto px-6">
         {projects.map((project, index) => (
           <div

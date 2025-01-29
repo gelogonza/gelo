@@ -68,7 +68,7 @@ const experiences = [
   const Experience: React.FC = () => {
     return (
       <section id="experience" className="py-16 bg-navy text-lightest-slate">
-        <h2 className="text-3xl font-bold text-center mb-8 text-white">Experience</h2>
+        <h2 className="text-3xl font-bold text-center mb-8 text-white">experience</h2>
         <div className="grid gap-8 max-w-7xl mx-auto px-6">
           {experiences.map((exp, index) => (
             <div
