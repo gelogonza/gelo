@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
       className="h-screen flex flex-col justify-center items-center text-center bg-navy text-lightest-slate"
     >
       {/* Profile Picture */}
-      <div className="rounded-full overflow-hidden w-52 h-52 border-4 border-green mb-6">
+      <div className="rounded-full overflow-hidden w-52 h-52 border-4 border-green mb-6 hidden md:block">
         <Image
           src="/AngeloImg.jpg" // Replace with your profile image path
           alt="gi, i'm angelo"
