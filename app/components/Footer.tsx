@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         {/* Left: Copyright */}
         <p className="text-sm">
-          © 2025 Angelo Gonzalez. All rights reserved.
+          © 2025 Angelo Gonzalez
         </p>
 
 
