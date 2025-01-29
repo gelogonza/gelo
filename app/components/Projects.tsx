@@ -1,14 +1,14 @@
 const projects = [
   {
-    title: "Personal Portfolio",
+    title: "personal portfolio",
     description:
-      "A responsive personal portfolio website showcasing my skills and projects.",
-    tags: ["React", "Next.js", "Tailwind CSS"],
+      "a responsive personal portfolio website showcasing my skills and projects.",
+    tags: ["react", "next.js", "tailwind css"],
     demoLink: "https://gelo-two.vercel.app/",
     codeLink: "https://github.com/gelogonza/gelo",
   },
   {
-    title: "PowerTrack Fitness Tracker",
+    title: "powertrak",
     description:
       `The Workout Tracker Web App is a web application designed to help users track their workouts 
       and nutrition. It provides a user-friendly interface for logging exercises, monitoring progress, and managing dietary intake.`,
@@ -17,17 +17,17 @@ const projects = [
     codeLink: "https://github.com/gelogonza/PowerTrak",
   },
   {
-    title: "Simple Link Website",
+    title: " Link Website",
     description:
-      "A secure password manager with encryption and two-factor authentication.",
+      "a website that leads to my other projects and social media accounts.",
     tags: ["HTML", "CSS"],
     demoLink: "https://gelo-link.netlify.app/",
     codeLink: "https://github.com/gelogonza/AngeloLink",
 
   },
   {
-    title: "Syro",
-    description: `Designed and developed a Music app using Spotify API that allows users to make playlists,
+    title: "syro",
+    description: `designed and developed a Music app using Spotify API that allows users to make playlists,
       view data, control playback on their devices, download music, play music that is downloaded locally,
       and view other peoples pages with more details and insights`,
     tags: ["Python", "Django","Spotify API"],
@@ -36,7 +36,7 @@ const projects = [
     
   },
   {
-    title: "Simple Reservation System",
+    title: "reservation system",
     description:
       `console-based application designed to streamline the operations of a restaurant. The program allows users to manage reservations, 
       food orders, table assignments, bill payments, and closing operations in an efficient and user-friendly manner.`,
@@ -45,7 +45,7 @@ const projects = [
     codeLink: "https://github.com/gelogonza/simplersvp"
     },
     {
-      title: "Simple Fitness Tracker",
+      title: "cli fitness tracker",
       description:
         `console-based application designed to help users log physical activities, set fitness goals, 
         and track their progress. It provides a simple interface to input data, monitor goals, and generate progress reports.`,

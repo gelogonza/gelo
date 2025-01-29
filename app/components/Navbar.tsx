@@ -24,19 +24,19 @@ const Navbar: React.FC = () => {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8">
           <li className="hover:text-green cursor-pointer">
-            <a href="#about">About</a>
+            <a href="#about">about</a>
           </li>
           <li className="hover:text-green cursor-pointer">
-            <a href="#experience">Experience</a>
+            <a href="#experience">experience</a>
           </li>
           <li className="hover:text-green cursor-pointer">
-            <a href="#skills">Skills</a>
+            <a href="#skills">skills</a>
           </li>
           <li className="hover:text-green cursor-pointer">
-            <a href="#projects">Projects</a>
+            <a href="#projects">projects</a>
           </li>
           <li className="hover:text-green cursor-pointer">
-            <a href="#contact">Contact</a>
+            <a href="#contact">contact</a>
           </li>
         </ul>
 
