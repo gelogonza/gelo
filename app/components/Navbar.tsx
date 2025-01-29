@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Menu Icon */}
         <button
-          className="md:hidden text-white"
+          className="md:hidden text-green"
           onClick={handleToggle}
         >
           {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
