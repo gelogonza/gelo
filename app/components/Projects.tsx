@@ -17,7 +17,7 @@ const projects = [
     codeLink: "https://github.com/gelogonza/PowerTrak",
   },
   {
-    title: " Link Website",
+    title: " link website",
     description:
       "a website that leads to my other projects and social media accounts.",
     tags: ["HTML", "CSS"],
